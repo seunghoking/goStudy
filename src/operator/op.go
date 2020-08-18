@@ -11,4 +11,6 @@ func main() {
 	fmt.Printf("a&b = %v\n", a&b)
 	fmt.Printf("a|b = %v\n", a|b)
 	fmt.Printf("a^b = %v\n", a^b)
+	fmt.Printf("a >> 1 = %v\n", a<<1)
+	fmt.Printf("a << 1 = %v\n", a>>1)
 }
